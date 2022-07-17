@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+Body{
+font-family: 'Kaisei Decol', serif;
+font-family: 'Poppins', sans-serif;
+}
 /*Home page*/
 
 .navbar {
@@ -53,7 +57,7 @@ p{
     min-width: 300px
 }
 body {
-    background-image: url("background.4jpg.jpg");
+    background-image: url("background.1jpg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -71,7 +75,17 @@ color: #fff;
 padding: 8px 30px;
 margin: 30px 0;
 border-radius:30px ;
+transition: background 0.5s;
   }
-
-
+  .btn:hover{
+    background: #c280d3;
+  }
+/** this would change the colour of the image if the image was in a div tag
+.Header {
+    background: radial-gradient(rgb(149, 73, 73),rgb(28, 144, 134));
+}
+/**/
+.header .row{
+margin-top: 70px;
+}
 /*Home page end*/
