@@ -6,8 +6,15 @@
 Body{
 font-family: 'Kaisei Decol', serif;
 font-family: 'Poppins', sans-serif;
+background-color: rgb(232, 223, 223);
 }
 /*Home page*/
+#logo{
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
 
 .navbar {
     display: flex;
@@ -163,3 +170,48 @@ color: #dd7b13; /* these are for the icon stars */
 .col-4:hover{
 transform: translateY(-5px);
 }
+
+/*  Offers  */
+.offer{
+    background: radial-gradient(#fff,#dfb418);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img{
+    padding: 60px;
+}
+ small{
+    color: rgb(0, 0, 0)
+ }
+
+ /*Testimonial */
+
+ .test {
+    text-align: center;
+ }
+
+ /*  testimonial  */
+
+ .testimonial {
+    padding-top: 100px;
+ }
+
+ .testimonial .colum-3 {  
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 10px 10px 5px rgba(216, 166, 28, 0.782);
+    cursor: pointer;
+    transition: tranform 0.5;
+ }
+
+ .testimonial .colum-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+ }
+
+ .testimonial .colum-3:hover {
+    transform: translateY(-10px);
+ }
+
