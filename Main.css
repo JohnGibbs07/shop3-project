@@ -353,5 +353,8 @@ text-align: left;
     font-size: 26px;
     line-height: 22px;
 }
+.cart-info {
+    display: none;
+}
 
 }

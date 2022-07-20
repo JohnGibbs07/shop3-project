@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Cart </title>
+     <link rel="stylesheet" type="text/css" href="main.css">
+     <link rel="stylesheet" type="text/css" href="P-P.css">
+     <link href="https://fonts.googleapis.com/css2?
+     family=Kaisei+Decol:wght@400;500;700&
+     family=Poppins:wght@200;300;400;500;600;700&display=swap" 
+     rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body> 
+    <!--Header-->
+
+ <div class="container">
+    <div class="row">
+    <div class="navbar">
+        <div class="logo">
+            <img src="84-Rock.png" alt="" width="125" id="logo">
+        </div>
+        <!--Nav bar -->
+        <nav class="nav">
+            <ul id="menuItems">
+                <li><a href="Main.html">Home</a> </li>
+                <li><a href="productsPage.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="Account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="bag2.jpg" alt="" width="30px" height="30px">
+        <img src="menu icon.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+</div>
+
+<!----Account page----->
+
+
+
+
+<!--Footer-->  
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download out App</h3>
+                <p>Download app for Android and ios moibile phone.</p>
+                <div class="app-logo">
+                    <img src="google3.png" alt="">
+                    <img src="apple store.jpg" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="84-Rock.png" alt="" id="logo2" width="280px;">
+               <br><br>
+                <p>Our purpose is to sustainably make the pleasure
+                    and benefits of collection to many  </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+               <ul>
+                <li>Coupons</li>
+                <li>Blog post</li>
+                <li> Return policy</li>
+                <li>Join are page</li>
+               </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+               <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li> Instagram</li>
+                <li>YouTube</li>
+               </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">CopyRight 2022 - project page</p>
+    </div>
+</div>
+
+<!---- JS for toggle meny ---->
+<script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle () {
+        if ( menuItems.style.maxHeight == "0px")
+        {
+            menuItems.style.maxHeight = "200px";
+        }
+        else {
+            menuItems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+<script src="Main.js"></script>
+</body>
+</html>
