@@ -4,7 +4,7 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>All products</title>
+     <title>All products Details</title>
      <link rel="stylesheet" type="text/css" href="main.css">
      <link rel="stylesheet" type="text/css" href="P-P.css">
      <link href="https://fonts.googleapis.com/css2?
@@ -40,10 +40,26 @@
 
 <!----Singal prduct details---->
 
-<div class="small-container">
+<div class="small-container single-product">
     <div class="row">
         <div class="col-2">
-            <img src="t-shirt 1.webp" alt="" width="100%">
+            <img src="t-shirt 1.webp" alt="" width="100%" id="productImg">
+
+<div class="small-img-row">
+    <div class="small-img-col">
+        <img src="t-shirt 1.webp" alt="" 
+        class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="t-shirt 2.webp" alt="" 
+        class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="t-shirt 3.webp" alt="" 
+        class="small-img">
+    </div>
+</div>
+
         </div>
         <div class="col-2">
             <p>Home / T-shirt</p>
@@ -59,11 +75,23 @@
             </select>
             <input type="number" value="1">
             <a href="" class="btn"> Add To Cart</a>
-        <h3></h3>
+        <h3>Product Details</h3>
+        <br>
+        <p>Give your summer wardrobe aa fresh new look this summer. 
+            fress, confitable and comes all different sizes to keep you active this summer</p>
         </div>
     </div>
 </div>  
+<!--Title-->
 
+<div class="small-container">
+    <div class="row row-2">
+<h2>Related Products</h2>
+<p>Veiw More</p>
+    </div>
+</div>
+
+<!--producta-->
 
 <div class="small-container">
 
@@ -165,6 +193,29 @@
             menuItems.style.maxHeight = "0px";
         }
     }
+
+</script>
+<!----Js for product gallery---->
+
+<script>
+    var productImg = document.getElementById("productImg");
+    var smallImg = document.getElementsByClassName("small-img");
+
+   smallImg [0].onlcick = function () 
+   {
+    productImg.src = smallImg[0].src;
+   }
+
+   smallImg [1].onlcick = function () 
+   {
+    productImg.src = smallImg[1].src;
+   }
+
+   smallImg [2].onlcick = function () 
+   {
+    productImg.src = smallImg[2].src;
+   }
+
 </script>
 </body>
 </html>
